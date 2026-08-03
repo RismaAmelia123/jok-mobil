@@ -37,7 +37,7 @@ use Illuminate\Support\Str;
                     <a href="{{ $setting?->tiktok }}"class="text-white-50 text-decoration-none d-flex align-items-center gap-2" target="_blank""><i class="bi bi-tiktok"></i><span>Tiktok</span></a>
                     @endif
                     @if($setting?->youtube)
-                    <a href="https://youtube.com/@awprointerior?si=MPhg-2spH2jNqSf2" class="text-white-50 text-decoration-none d-flex align-items-center gap-2" target="_blank""><i class="bi bi-youtube"></i><span>Youtube</span>
+                    <a href="https://youtube.com/@awprointerior?si=MPhg-2spH2jNqSf2" class="text-white-50 text-decoration-none d-flex align-items-center gap-2" target="_blank""><i class="bi bi-youtube"></i><span>Youtube</span></a>
                     @endif
                 </p>
             </div>
@@ -46,14 +46,12 @@ use Illuminate\Support\Str;
 
         <div class="text-center">
             <p class="mb-1 text-white-50"> © {{ date('Y') }} {{ $setting?->company_name }}. All Rights Reserved.</p>
-
             <small class="text-white-50">
                 Website developed by
                 <span class="text-white-50">Risma</span>
                 &
                 <span class="text-white-50">Arafah</span>
             </small>
-
         </div>
     </div>
 </footer>

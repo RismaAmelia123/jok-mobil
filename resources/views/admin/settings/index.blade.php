@@ -702,8 +702,33 @@
 
             </div>
 
+            {{-- Youtube --}}
+            <div class="setting-card">
+
+                <span class="setting-label">
+                    Youtube
+                </span>
+
+                <div class="setting-value">
+
+                    @if($setting?->youtube)
+
+                        <a href="{{ $setting?->youtube }}" target="_blank">
+                            {{ $setting?->youtube }}
+                        </a>
+
+                    @else
+
+                        -
+
+                    @endif
+
+                </div>
+
+            </div>
+
             {{-- Google Maps --}}
-            <div class="setting-card full-width">
+            <div class="setting-card">
 
                 <span class="setting-label">
                     Google Maps

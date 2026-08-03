@@ -569,6 +569,25 @@
             <div class="form-group">
 
                 <label class="form-label">
+                    Youtube
+                </label>
+
+                <input
+                    type="text"
+                    name="tiktok"
+                    class="form-control"
+                    placeholder="Contoh: jokmobil atau https://youtube.com/jokmobil"
+                    value="{{ old('youtube', $setting->youtube) }}"
+                >
+                    <small class="form-help">
+                        Bisa diisi username atau link lengkap Facebook.
+                    </small>
+
+            </div>
+
+            <div class="form-group">
+
+                <label class="form-label">
                     Google Maps
                 </label>
 

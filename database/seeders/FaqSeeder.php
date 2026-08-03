@@ -13,7 +13,7 @@ class FaqSeeder extends Seeder
 
             [
                 'question' => 'Berapa lama proses pengerjaan interior mobil?',
-                'answer' => 'Lama pengerjaan berkisar antara 1 hingga 3 hari, tergantung jenis layanan dan tingkat kesulitan pekerjaan.',
+                'answer' => 'Lama pengerjaan berkisar antara 1 hingga 5 hari, tergantung jenis layanan dan tingkat kesulitan pekerjaan.',
                 'sort_order' => 1,
                 'is_active' => true,
             ],
@@ -27,7 +27,7 @@ class FaqSeeder extends Seeder
 
             [
                 'question' => 'Apakah ada garansi untuk hasil pengerjaan?',
-                'answer' => 'Tentu. Kami memberikan garansi pengerjaan sesuai dengan ketentuan yang berlaku agar pelanggan merasa lebih aman dan nyaman.',
+                'answer' => 'Tentu. Kami memberikan garansi pengerjaan dan garansi bahan sesuai dengan ketentuan yang berlaku agar pelanggan merasa lebih aman dan nyaman.',
                 'sort_order' => 3,
                 'is_active' => true,
             ],

@@ -64,6 +64,7 @@ class SettingController extends Controller
             'facebook' => 'nullable|max:255',
             'instagram' => 'nullable|max:255',
             'tiktok' => 'nullable|max:255',
+            'youtube' => 'nullable|max:255',
 
             'maps' => 'nullable',
 
